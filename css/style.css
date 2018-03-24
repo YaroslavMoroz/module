@@ -1,0 +1,62 @@
+.kvadrat {
+	background: red;
+	width: 250px;
+	height: 250px;
+	margin:  auto;
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+
+.romb {
+	margin-left: 70px;
+	position: absolute;
+	margin-top: 30px;
+
+}
+.triangle1 {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 90px solid blue;
+
+
+	
+}
+.triangle2 {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 90px solid blue;
+	transform: rotate(180deg);
+
+}
+
+	
+.circle {
+	visibility: hidden;
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background: green;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	margin-left: 1200px;
+	
+}
+
+@keyframes loader {
+  0% {transform:rotate(-45deg)}
+  50%{transform:rotate(-135deg)}
+  100%{transform:rotate(-225deg)}}
+
+  .loader {
+  animation: loader 2s infinite ease-in-out;
+}
+
